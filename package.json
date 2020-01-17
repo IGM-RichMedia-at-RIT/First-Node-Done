@@ -1,0 +1,15 @@
+{
+  "name": "first_node",
+  "version": "1.0.0",
+  "description": "My first node project",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Willoughby",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "underscore": "^1.9.2"
+  }
+}

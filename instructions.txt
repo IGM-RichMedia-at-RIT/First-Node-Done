@@ -1,0 +1,33 @@
+Some files in this project cannot be commented (such as package.json), so instead I will comment them here.
+
+To begin, we create an empty folder somewhere on our computer.
+In that folder, we can shift-rightclick and "Open Powershell Window Here".
+From powershell, we can run the 'npm init' command, which will setup our node project.
+
+At each step of the process, npm will prompt us for some information. In some cases, it
+will display some text inside parenthesis. This information is a "default value", and pressing
+enter will simply autofill the response with that answer. Below is a description of each thing
+it will ask you for.
+
+package name - the name of your project
+version - the current version number of your project
+description - a short blurb about what your project is / what it does
+entry point - the "main" file of your project, so if someone else downloads the code they know what to run
+test command - the script used for testing your code. Leave this blank for now.
+git repository - if your project is created in a git repo, it will autofill. Just a link to your main repo.
+keywords - the list of keywords npm will use to search your project if you upload it to the main npm repo.
+author - the name of the person(s) working on the project. This should be your name for class work
+license - one of many code licenses. For this class, we will use UNLICENSED since our code isn't free to use.
+
+Once you answer these question, it will generate JSON and ask if it is okay. Pressing enter will generate
+a package.json file in your project. If you accidentally answered any of the above prompts incorrectly,
+you can simply edit the package.json.
+
+You will need to add the "start" script to the "scripts" section in package.json as well. You can do this
+manually in your code editor. To run this script, type "npm start" into powershell.
+
+Finally, to install the "underscore" library, you'll need to run "npm install underscore" from powershell.
+
+To run your server, type "npm start" into powershell. Then open your web browser and navigate to localhost:3000.
+Localhost is an alias for your computers local IP address, and :3000 tells it to connect to port 3000 (where the
+server will be running). You should see "Hey there" displayed in your browser.
